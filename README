@@ -1,0 +1,70 @@
+# Pig Model Paper
+
+This repository contains the code and data for the pig model analysis and associated paper. The project focuses on processing and analyzing sound data related to pig detection and modelling.
+
+## Important
+
+During the process of developing the recogniser, the names given to different versions were not consistent. For readability of the paper, the versions presented have been standardised. Therefore, the version names that should be used are the "standardised_recog_version" column in "data/raw_all_recogniser_versions_validated.txt", or (in bold are the chosen versions):
+
+                                                recog_version == "v5" ~ standardised_recog_version == "v01",
+                                                recog_version == "v6" ~ standardised_recog_version == "v02",
+                                                recog_version == "v6_1" ~ standardised_recog_version == "v03",
+                                                recog_version == "v6-2" ~ standardised_recog_version == "v04",
+                                                recog_version == "v6-9-1" ~ standardised_recog_version == "v05",
+                                                recog_version == "v6-9-2" ~ standardised_recog_version == "v06",
+                                                recog_version == "v6-9-3" ~ standardised_recog_version == "v07",
+                                                recog_version == "v6-9-4" ~ standardised_recog_version == "v08",
+                                                recog_version == "v6-9-5" ~ standardised_recog_version == "v09",
+                                                recog_version == "v6-9-6" ~ standardised_recog_version == "v10",
+                                                recog_version == "v6-9-7" ~ standardised_recog_version == "v11",
+                                                recog_version == "v6-9-8" ~ standardised_recog_version == "v12",
+                                                ** recog_version == "v6-9-9" ~ standardised_recog_version == "v13", **
+                                                recog_version == "v7" ~ standardised_recog_version == "v14",
+                                                recog_version == "v8" ~ standardised_recog_version == "v15",
+                                                recog_version == "v9" ~ standardised_recog_version == "v16",
+                                                ** recog_version == "vtest" ~ standardised_recog_version == "v17", **
+                                                recog_version == "vtest1" ~ standardised_recog_version == "v18",
+                                                recog_version == "vtest2" ~ standardised_recog_version == "v19",
+
+## Project Structure
+
+- `data/`: Contains the raw and processed data used in the analysis. The raw data is provided based on the data collected in the field. The processed data can be generated through the associated scripts
+- `R/`: R functions and utility scripts
+- `recogniser/`: Code related to the pig sound recognition model and summary of such results
+- `results/`: Output files, figures, and analysis results
+- `scripts/`: Main analysis scripts and workflows
+  - MOst figures have their own script, except figure 3 - check scripts/1_summarising_recogniser_results/1_calculating_metrics.R for fig. 3
+- `xx_archive/`: Archived code and files
+- `xx_internal_pre_cleaning/`: Pre-processing and data cleaning scripts
+
+## Getting Started
+
+1. Clone this repository
+2. Ensure you have R installed with required packages
+3. Follow the workflows in the `scripts/` directory
+
+## Data Structure
+
+The `data/` directory contains:
+- Raw data from vegetation, recogniser outputs, data loggers, camera trap results, etc
+- Processed data
+- Model inputs and outputs
+
+## Analysis Workflow
+
+1. Data pre-processing and cleaning
+2. Summarising recogniser results
+3. Occupancy odel training and validation
+4. Results analysis and visualization
+
+## Results
+
+Analysis outputs and figures can be found in the `results/` directory.
+
+## Contact
+
+For questions about the code or analysis, please contact the code author (Marina D. A. Scarpelli - ninascarpelli@gmail.com).
+
+## License
+
+Please see the repository's main license file for usage terms.

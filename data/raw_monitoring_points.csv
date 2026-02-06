@@ -1,0 +1,11 @@
+﻿point,filename,dispname,site,group,device,date.start,date.end,latitude,longitude,comments
+A,y_site-a_bar,good gully BAR,GoodGully,CSIROSites,bar,26/06/2023,7/06/2024,-17.9636,145.4005,
+B,y_site-b_bar,sunday creek east BAR,SundayCreekE,CSIROSites,bar,28/06/2023,2/10/2023,-17.94381,145.39683,
+B2,y_site-b2_bar,sunday creek east BAR-2,SundayCreekE,CSIROSites,bar,2/10/2023,7/06/2024,-17.94379,145.39441,previously am-b2
+C,y_site-c_bar,valley billabongs BAR,ValleyBillabongs,CSIROSites,bar,28/06/2023,7/06/2024,-17.93941,145.43806,
+D,y_site-d_bar,valley road BAR,ValleyRoad,CSIROSites,bar,28/06/2023,9/06/2024,-17.96021,145.46506,
+E,y_site-e_bar,sunday creek south BAR,SundayCreekS,CSIROSites,bar,27/06/2023,8/06/2024,-17.98868,145.31088,
+F,y_site-f_bar,sunday creek west BAR,SundayCreekW,CSIROSites,bar,27/06/2023,8/06/2024,-17.94543,145.32566,
+G,y_site-g_bar,basalt creek north BAR,BasaltCreekN,CSIROSites,bar,27/06/2023,8/06/2024,-17.95664,145.29247,
+H,y_site-h_bar,basalt creek south BAR,BasaltCreekS,CSIROSites,bar,27/06/2023,8/06/2024,-17.96859,145.29715,
+I,y_site-i_bar,swamp of death BAR,SwampOfDeath,BHAPigTraps,bar,28/06/2023,7/04/2024,-17.95153,145.26612,

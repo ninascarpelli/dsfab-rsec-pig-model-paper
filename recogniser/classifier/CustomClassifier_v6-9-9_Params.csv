@@ -1,0 +1,2 @@
+Hidden units,Dropout,Batchsize,Learning rate,Crop mode,Crop overlap,Upsamling mode,Upsamling ratio,use mixup,use label smoothing
+512,0.33,32,0.005,center,0,repeat,1.0,True,True
